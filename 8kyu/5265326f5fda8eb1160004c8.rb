@@ -6,3 +6,7 @@ def number_to_string(num)
   # to_sメソッドの引数を省略すると10進数
   num.to_s
 end
+
+def number_to_string(num)
+  "#{num}"
+end
